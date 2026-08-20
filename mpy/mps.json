@@ -1,0 +1,22 @@
+{
+  "name": "duck-hunt",
+  "version": "1.0.0",
+  "description": "PixelMug duck hunt game controlled by a BLE WebApp gamepad.",
+  "author": "",
+  "category": "Game",
+  "dependencies": [
+    {
+      "name": "micropyxel",
+      "version": ">=1.0.0"
+    },
+    {
+      "name": "maopaoBleApp",
+      "version": ">=1.0.0"
+    },
+    {
+      "name": "audio_service",
+      "version": ">=1.0.0"
+    }
+  ],
+  "date": "2026-08-11"
+}
