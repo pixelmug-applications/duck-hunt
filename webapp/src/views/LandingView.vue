@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { t } from '../i18n';
 import { useDuckHunt } from '../state/duckHunt';
@@ -16,6 +16,10 @@ async function openGame() {
   }
   await router.push('/game');
 }
+
+onMounted(() => {
+  void openGame();
+});
 </script>
 
 <template>

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "runId": "run-2026-11-13T03-54-40-016Z-df3660",
+  "startedAt": "2026-11-13T03:55:37.920Z",
+  "project": "D:\\git\\pixelmug-mpy\\pixelmug-apps\\duck-hunt",
+  "bot": "bot/index.js",
+  "webRoot": "D:\\git\\pixelmug-mpy\\pixelmug-apps\\duck-hunt\\debug\\run-2026-11-13T03-54-40-016Z-df3660\\webapp",
+  "buildId": null,
+  "mpsId": "local-debug",
+  "mpsVersion": "1.0.0"
+}

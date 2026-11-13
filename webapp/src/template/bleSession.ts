@@ -1,7 +1,7 @@
 import { computed, reactive } from 'vue';
 import type { DeviceInfo } from '../types';
 import { getWebApp, hasJeeWebBridge } from './bubbleClient';
-import { BleAppClient, isBleAppDisconnectError } from '../../../../jeejio-bubble/sdk/BleAppClient.js';
+import { BleAppClient, isBleAppDisconnectError } from '@jeejio-bubble/bot/sdk/BleAppClient.js';
 
 type BlePayload = Record<string, unknown>;
 
