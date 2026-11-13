@@ -5,11 +5,7 @@ webapp/node_modules/
 # Build artifacts
 webapp/dist/
 mpy/dist/
-
-# Local bot credentials
-bot/config.dev.js
-bot/config.pub.js
-bot/config.local.js
+debug/
 
 # Environment files
 .env
